@@ -5,7 +5,7 @@
  * @return Index of x or -1 if not found.
  */
 
-package Algorithms.Searching;
+package Algorithms.Searching.BinaryAndLinear;
 
 class BinaryAndLinear {
 
