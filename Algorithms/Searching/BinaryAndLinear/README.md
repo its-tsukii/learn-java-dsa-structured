@@ -23,14 +23,14 @@ Time and memory usage measured via Java's `System.nanoTime()` and `Runtime.getRu
 
 ## Sample Output
 
-Element found at index (binary_search): 2
-Binary Search Time: 1400 ns
-Binary Search Memory Used: 2048 bytes
-Binary Search Memory Used: 2 kb
-Element found at index (linear_search): 2
-Linear Search Time: 3500 ns
-Linear Search Memory Used: 4096 bytes
-Linear Search Memory Used: 4 kb
+<br>Element found at index (binary_search): 2
+<br>Binary Search Time: 1400 ns
+<br>Binary Search Memory Used: 2048 bytes
+<br>Binary Search Memory Used: 2 kb
+<br>Element found at index (linear_search): 2
+<br>Linear Search Time: 3500 ns
+<br>Linear Search Memory Used: 4096 bytes
+<br>Linear Search Memory Used: 4 kb
 
 *Note:* Memory usage can fluctuate due to JVM garbage collection and runtime optimizations.
 
