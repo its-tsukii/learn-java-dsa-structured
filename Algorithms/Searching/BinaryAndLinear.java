@@ -1,10 +1,17 @@
+/**
+ * Performs binary search and linear search on a sorted array.
+ * @param arr The sorted array.
+ * @param x The element to find.
+ * @return Index of x or -1 if not found.
+ */
+
 package Algorithms.Searching;
 
 class BinaryAndLinear {
 
     // time complexity - o (n), space complexity - o(1)
     static int linear_search(int arr[], int n, int x) {
-        for (int i = 0; i <= arr.length - 1; i++) {
+        for (int i = 0; i <= n - 1; i++) {
             if (arr[i] == x) {
                 return i;
             }
@@ -17,7 +24,10 @@ class BinaryAndLinear {
         int l = 0;
         int r = n - 1;
         while (l <= r) {
-            int mid = (l + r) / 2;
+            // in traditional binary_search we use int mid = (l + r) / 2 although this is
+            // correct but as the input increases it can cause to throw an as to how the
+            // function is interpreted
+            int mid = l + (r - l) / 2;
             if (arr[mid] == x) {
                 return mid;
             } else if (arr[mid] < x) {
