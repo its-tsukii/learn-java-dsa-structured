@@ -19,44 +19,46 @@ Explore each folder's README for details!
 
 Happy learning! 🚀
 
-Structure:
+---
 
-Algorithms/
-    Searching/
-        BinaryAndLinear/
-        InterpolationSearch/
-        ExponentialSearch/
-    Sorting/
-        BubbleSort/
-        MergeSort/
-        QuickSort/
-        ...
-    Graphs/
-        BFS/
-        DFS/
-        Dijkstra/
-        BellmanFord/
-        FloydWarshall/
-        Kruskal/
-        Prim/
-        UnionFind/
-    Misc/
-        HareTortoiseCycleDetection/
-        GreedyAlgorithms/
+## Structure for reference (i mean for me to like to how to make the folders)
 
-DataStructures/
-    ArraysStrings/
-    LinkedLists/
-    StacksQueues/
-    HashTables/
-    TreesBST/
-    Heaps/
-    GraphRepresentations/
+Algorithms/  
+    Searching/  
+        BinaryAndLinear/  
+        InterpolationSearch/  
+        ExponentialSearch/  
+    Sorting/  
+        BubbleSort/  
+        MergeSort/  
+        QuickSort/  
+        ...  
+    Graphs/  
+        BFS/  
+        DFS/  
+        Dijkstra/  
+        BellmanFord/  
+        FloydWarshall/  
+        Kruskal/  
+        Prim/  
+        UnionFind/  
+    Misc/  
+        HareTortoiseCycleDetection/  
+        GreedyAlgorithms/  
+  
+DataStructures/  
+    ArraysStrings/  
+    LinkedLists/  
+    StacksQueues/  
+    HashTables/  
+    TreesBST/  
+    Heaps/  
+    GraphRepresentations/  
 
-Patterns/
-    SlidingWindow/
-    TwoPointers/
-    FastSlowPointers/
-    Backtracking/
-    BFS/
-    DivideAndConquer/
+Patterns/  
+    SlidingWindow/  
+    TwoPointers/  
+    FastSlowPointers/  
+    Backtracking/  
+    BFS/  
+    DivideAndConquer/  
