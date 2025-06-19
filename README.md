@@ -62,3 +62,17 @@ Patterns/
     Backtracking/  
     BFS/  
     DivideAndConquer/  
+
+## ---- Important Or Algorithms that cover 90% or more questions or interview - favorite
+
+                    --> MergeSort - covers 90% of the interview questions on sorting
+    1.Sorting -->  
+                    --> QuickSort - Closely Follows MergeSort But MergeSort Stil Dominates
+
+                    --> Some Questions still requires BucketSort but its not worth the trouble
+
+                                    -->BinarySearch On Questions - basic binary questions
+    2.Searching --> BinarySearch 
+                                    -->BinarySearch On Answers - such as koko banana question
+
+    3.
