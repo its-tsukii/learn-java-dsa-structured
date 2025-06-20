@@ -1,3 +1,10 @@
+/**
+ * Performs Various functions and demonstrates various functions of String, StringBuffer, StringBuilder.
+ * @param name The String, StringBuffer, StringBuilder.
+ * @param i To iterate.
+ * @print name.
+ */
+
 package DataStructures.Variables;
 
 public class Strings {
@@ -50,3 +57,13 @@ public class Strings {
         StringBuilder();
     }
 }
+
+/*
+ * unlike other languages we have 3 parts of strings so 1st one bring String :
+ * this is our typical string type its unmutable
+ * then we have StringBuffer : this is reliable and performance oriented String
+ * type its mutable unlike String
+ * then we also have StringBuilder : same as StringBuffer but at the same time
+ * has more control over high level functions such as concurrency its also
+ * mutable
+ */

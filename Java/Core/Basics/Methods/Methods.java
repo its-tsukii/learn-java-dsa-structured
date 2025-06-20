@@ -1,3 +1,10 @@
+/**
+ * Performs Various functions and demonstrates various functions of Methods.
+ * @param obj computer, playmusic(), pen().
+ * @param i To iterate.
+ * @print obj.
+ */
+
 package Java.Core.Basics.Methods;
 
 public class Methods {
@@ -23,3 +30,9 @@ class Computer {
         }
     }
 }
+
+/*
+ * this demonstrates the use of method how we can use em again and again
+ * alongside how to handle objects tackle them with methods, so in the example
+ * obj is an object and its method is playmusic() and Computer is an class
+ */
