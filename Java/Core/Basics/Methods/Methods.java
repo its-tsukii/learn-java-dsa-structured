@@ -29,6 +29,10 @@ class Computer {
             return "Nothing";
         }
     }
+
+    public Computer() {
+        System.out.println("this is a constructor");
+    }
 }
 
 /*
