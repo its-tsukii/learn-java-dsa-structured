@@ -26,6 +26,7 @@ class dog extends animal {
 }
 
 class cat extends dog {
+
     public void makesound() {
         System.out.println("cat sound");
     }
