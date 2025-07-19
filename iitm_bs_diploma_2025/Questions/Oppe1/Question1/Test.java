@@ -1,4 +1,4 @@
-package iitm_bs_diploma_2025.Questions;
+package iitm_bs_diploma_2025.Questions.Oppe1.Question1;
 
 import java.util.*;
 
