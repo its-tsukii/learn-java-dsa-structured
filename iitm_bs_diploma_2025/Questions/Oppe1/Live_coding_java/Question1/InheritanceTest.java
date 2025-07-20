@@ -1,4 +1,4 @@
-package iitm_bs_diploma_2025.Questions.Oppe1.Question2;
+package iitm_bs_diploma_2025.Questions.Oppe1.Live_coding_java.Question1;
 
 import java.util.Scanner;
 
