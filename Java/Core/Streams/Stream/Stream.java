@@ -17,4 +17,9 @@ public class Stream {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'generate'");
     }
+
+    public static Object generate(Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'generate'");
+    }
 }
