@@ -6,6 +6,10 @@ public class Practise {
         d.speak();
         ((Dog<Integer>) a).fetch();
         d.Age(45);
+        String name = "shubhi";
+        reference r = new reference(name);
+        System.out.println(reference.getName("aayush"));
+        System.out.println(reference.getName());
     }
 }
 
@@ -30,5 +34,21 @@ class Dog<T> implements Animal<T> {
 
     public void fetch() {
         System.out.println("Fetching");
+    }
+}
+
+class reference {
+    private static String name;
+
+    reference(String name) {
+        this.name = name;
+    }
+
+    public static String getName() {
+        return name;
+    }
+
+    public static String getName(String name) {
+        return name;
     }
 }
