@@ -1,19 +1,24 @@
 # Algorithms
 
-This folder contains implementations of common algorithms in Java.  
-Each algorithm comes with:
+This folder contains implementations, explanations, complexity analyses, and benchmarking for a variety of algorithms.
 
-- Detailed explanation
-- Code implementation
-- Time and space complexity analysis
-- Benchmarking using Java Runtime methods
+## Structure
 
----
+- Subfolders are organized by algorithm type (e.g., Searching, Sorting, Graph, DynamicProgramming).
+- Each subfolder contains:
+  - Java source code for each algorithm.
+  - A README with algorithm explanations, complexity analysis, and sample outputs.
+  - Benchmarking results (where available).
 
-## Available Algorithms
+## How to Use
 
-- [`Searching/`](Searching) - Searching algorithms like binary search, linear search, etc.
+- Browse to the subfolder of interest.
+- Each README gives a high-level overview and links to the source files.
+- Run the Java files to see benchmarks and outputs.
 
----
+## Example Subfolders
 
-Explore individual folders for deeper dives into each algorithm.
+- `Searching/`
+- `Sorting/`
+- `Graph/`
+- `DynamicProgramming/`
