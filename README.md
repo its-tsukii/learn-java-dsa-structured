@@ -1,4 +1,48 @@
-# Learn Java DSA Structured
+# Java Algorithms and Data Structures Repository
+
+Welcome to the Java Algorithms and Data Structures repository!  
+This project contains detailed explanations, implementations, complexity analyses, and benchmarking for a wide range of computer science algorithms and data structures, as well as coding practice problems and solutions.
+
+## 📁 Repository Structure
+
+- **Algorithms/** — Classic and advanced algorithms with code, complexity, and benchmarks.
+- **DataStructures/** — Implementations and explanations of essential data structures.
+- **Java/** — Java language basics, OOP concepts, and utility code.
+- **Patterns/** — Design patterns with code samples.
+- **CodeChefs/** — Solutions to competitive programming problems.
+- **Questions/** — Practice questions, frequently asked interview problems, and solutions.
+- **iitm_bs_diploma_2025/** — Coursework and projects for the IITM BS Diploma program.
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/its-tsukii/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Browse folders** for algorithms, data structures, and practice problems.
+
+3. **Run code samples:**  
+   All code is in Java. Use any Java IDE or CLI tools.
+
+## 🏗️ Contribution Guidelines
+
+- Fork this repo and create a new branch for your feature/fix.
+- Add new algorithms or data structures in the appropriate folder with a README.
+- Use clear naming conventions and JavaDoc comments in code.
+- Open a Pull Request with a description of your changes.
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+Inspired by open-source learning, competitive programming, and the community.
+
+
+## Learn Java DSA Structured
 
 Welcome to the **Learn Java DSA Structured** repository!
 

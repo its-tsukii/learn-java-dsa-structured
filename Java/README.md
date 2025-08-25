@@ -134,3 +134,15 @@ Advanced Java is essential for **backend development, system design, and scalabl
 | Behavioral Rounds   | ❌ No       | ✅ Project-based  |
 
 ---
+
+## Java Basics
+
+This folder contains fundamentals of Java programming, OOP concepts, and utility classes.
+
+## Contents
+
+- Java syntax, operators, control flow
+- OOP: classes, interfaces, inheritance, polymorphism
+- Utility code and helper classes
+
+Use this folder as a reference for Java language basics and idioms.
