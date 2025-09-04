@@ -140,3 +140,113 @@ public class VariablesDemo {
 
 - [Java Variables - Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html)
 - [GeeksforGeeks: Variables in Java](https://www.geeksforgeeks.org/variables-in-java/)
+
+
+## Output 
+```text
+PS D:\internships\personal\java-learning> java D:\internships\personal\java-learning\DataStructures\Variables\Main.java
+=== Java Primitives with Memory ===
+int: 42 (Size: 32 bits = 4 bytes)
+double: 3.14159 (Size: 64 bits = 8 bytes)
+float: 2.5 (Size: 32 bits = 4 bytes)
+long: 123456789 (Size: 64 bits = 8 bytes)
+boolean: true (Size: ~1 byte in arrays/objects)
+char: 'A' (Size: 16 bits = 2 bytes)
+
+=== Wrapper Objects and Memory ===
+Integer object: 42
+Double object: 3.14
+Boolean object: true
+Approximate memory size:
+Integer: ~16-24 bytes (object header + 4 bytes value)
+Double: ~24 bytes
+Boolean: ~16 bytes
+
+=== String and StringBuffer ===
+String: "Hello World"
+Each character: 2 bytes (Unicode), total: 22 bytes + object overhead
+StringBuffer: Java is cool
+Mutable string, size = character array + object overhead
+
+=== Character & ASCII Table ===
+Character: 'G' -> ASCII: 71
+
+--- ASCII A-Z ---
+'A' = 65
+'B' = 66
+'C' = 67
+'D' = 68
+'E' = 69
+'F' = 70
+'G' = 71
+'H' = 72
+'I' = 73
+'J' = 74
+'K' = 75
+'L' = 76
+'M' = 77
+'N' = 78
+'O' = 79
+'P' = 80
+'Q' = 81
+'R' = 82
+'S' = 83
+'T' = 84
+'U' = 85
+'V' = 86
+'W' = 87
+'X' = 88
+'Y' = 89
+'Z' = 90
+
+--- ASCII a-z ---
+'a' = 97
+'b' = 98
+'c' = 99
+'d' = 100
+'e' = 101
+'f' = 102
+'g' = 103
+'h' = 104
+'i' = 105
+'j' = 106
+'k' = 107
+'l' = 108
+'m' = 109
+'n' = 110
+'o' = 111
+'p' = 112
+'q' = 113
+'r' = 114
+'s' = 115
+'t' = 116
+'u' = 117
+'v' = 118
+'w' = 119
+'x' = 120
+'y' = 121
+'z' = 122
+
+=== Character Utility Methods ===
+isDigit('8') = true
+isLetter('A') = true
+isLetterOrDigit('!') = false
+isWhitespace(' ') = true
+toUpperCase('x') = X
+toLowerCase('J') = j
+
+=== Type Conversion / Parsing ===
+Parsed int: 123
+Parsed double: 45.67
+Parsed boolean: true
+int to String: 100
+Casted double to int (9.99 -> 9)
+
+=== Null Character (\0) ===
+Null char: '' (ASCII: 0)
+
+=== Object Comparison ===
+Integer a == b? false
+Integer a.equals(b)? true
+Integer c == d (within cache)? true
+```
