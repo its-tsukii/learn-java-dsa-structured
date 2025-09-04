@@ -9,3 +9,7 @@ public class Practice2 {
                 .forEach((x) -> System.out.print(x + " "));
     }
 }
+
+
+
+// this is the practice file
