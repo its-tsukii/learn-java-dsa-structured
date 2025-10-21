@@ -14,6 +14,41 @@ class MergeSort_QuickSort {
         return arr;
     }
 
+    public int[] Merge(int[] arr, int left, int right, int mid) {
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
+
+        // temp arrays
+        int[] l = new int[n1];
+        int[] r = new int[n2];
+
+        // copy data to temp arrays
+        for (int i = 0; i < n1; i++) {
+            l[i] = arr[left + i];
+        }
+        for (int i = 0; i < n2; i++) {
+            r[i] = arr[mid + 1 + i];
+        }
+
+        // merge
+
+        int i = 0, j = 0;
+        int k = left;
+
+        while (i < n1 && j < n2) {
+            if (l[i] <= r[j]) {
+                arr[k++] = l[i++];
+            } else {
+                arr[k++] = r[j++];
+            }
+        }
+        // Copy remaining elements
+        while (i < n1)
+            arr[k++] = l[i++];
+        while (j < n2)
+            arr[k++] = r[j++];
+    }
+
     public static void main(String[] args) {
         int arr[] = { 13, 46, 24, 52, 20, 9 };
         int[] arr1 = arr.clone();
