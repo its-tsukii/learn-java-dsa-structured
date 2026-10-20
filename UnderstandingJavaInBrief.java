@@ -5,45 +5,52 @@ import java.io.*;
 
 class Main {
     public static void main(String[] args) {
-        // how would you take a input --> use import scanner
-        Scanner sc = new Scanner(System.in);
-        // methods of Scanner : nextInt() --> takes input as int --> also nextDouble()
-        // --> takes input as double, next() --> takes input a single word,
-        // -->nextLine() takes input as a full line / reads full line, nextBoolean() -->
-        // reads boolean
-        System.out.println("type the input : ");
-        String input = sc.nextLine();
+        // // how would you take a input --> use import scanner
+        // Scanner sc = new Scanner(System.in);
+        // // methods of Scanner : nextInt() --> takes input as int --> also
+        // nextDouble()
+        // // --> takes input as double, next() --> takes input a single word,
+        // // -->nextLine() takes input as a full line / reads full line, nextBoolean()
+        // -->
+        // // reads boolean
+        // System.out.println("type the input : ");
+        // String input = sc.nextLine();
 
-        System.out.println("you typed : " + input);
+        // System.out.println("you typed : " + input);
 
-        sc.close();
+        // sc.close();
 
-        // how do we take a substring out of a string ?
-        // --> use the inbuilt function substring()
-        // for example
-        String str = "aayush";
-        String s = str.substring(2, 4);
-        // or we can also do take substring with reverse index
-        String sr = str.substring(str.length() - 3);
+        // // how do we take a substring out of a string ?
+        // // --> use the inbuilt function substring()
+        // // for example
+        // String str = "aayush";
+        // String s = str.substring(2, 4);
+        // // or we can also do take substring with reverse index
+        // String sr = str.substring(str.length() - 3);
 
-        // we can also convert the whole of String into an array with arr.toCharArray();
-        // for example
-        char[] chars = str.toCharArray();
-        // or you could get the string's element by getting one by one char
-        char a = str.charAt(0);
+        // // we can also convert the whole of String into an array with
+        // arr.toCharArray();
+        // // for example
+        // char[] chars = str.toCharArray();
+        // // or you could get the string's element by getting one by one char
+        // char a = str.charAt(0);
 
-        // we can reverse the string with a while and 2 pointers swapping or use a quick
-        // StringBuilder(preferred)
-        String reverse = new StringBuilder(str).reverse().toString();
-        UnderstandingExceptions exceptions = new UnderstandingExceptions();
-        exceptions.ExampleArithmeticException(10, 0);
-        exceptions.ExampleArithmeticException(10, 5);
-        int res = exceptions.ExampleOfFinallyAndResources();
-        System.out.println(res);
+        // // we can reverse the string with a while and 2 pointers swapping or use a
+        // quick
+        // // StringBuilder(preferred)
+        // String reverse = new StringBuilder(str).reverse().toString();
+        // UnderstandingExceptions exceptions = new UnderstandingExceptions();
+        // exceptions.ExampleArithmeticException(10, 0);
+        // exceptions.ExampleArithmeticException(10, 5);
+        // int res = exceptions.ExampleOfFinallyAndResources();
+        // System.out.println(res);
 
-        Debugging debug = new Debugging();
-        debug.sout();
-        debug.UsingLogger();
+        // Debugging debug = new Debugging();
+        // debug.sout();
+        // debug.UsingLogger();
+
+        Streams s = new Streams();
+        s.func();
     }
 }
 
@@ -106,6 +113,23 @@ class UnderstandingStrings {
         sb.toString().equals(str);
         // you can even use multiple methods together
         String result = sb.toString().toLowerCase().substring(0, 3);
+        // although it is said to rather learn string buffer
+        // use String when text is fixed etc understand returning or combining multiple
+        // Strings create multiple objects since Strings themselves are object (less
+        // efficient)
+        // Important: A String is immutable. When you concatenate strings, Java creates
+        // a new string rather than modifying the existing one.
+
+        // use StringBuilder when you
+        // Use StringBuilder when you need to construct or modify text repeatedly,
+        // especially inside loops.
+        // Default recommendation: If you need a mutable string, choose StringBuilder
+        // unless you have a specific reason to use StringBuffer.
+
+        // use StringBuffer when you
+        // Use StringBuffer when multiple threads need to modify the same mutable string
+        // and you need its individual methods to be synchronized.
+        // StringBuffer is threadSafe while StringBuilder isnt
     }
 
     // important
@@ -676,5 +700,18 @@ class Debugging {
     public void UsingLogger() {
         Logger logger = Logger.getLogger(Logger.class.getName());
         logger.info("677 -> ran");
+    }
+}
+
+class Streams {
+    public void func() {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(7);
+        list.add(4);
+        list.add(2);
+        list.add(8);
+
+        list.stream().forEach(i -> System.out.print(i + " "));
     }
 }
